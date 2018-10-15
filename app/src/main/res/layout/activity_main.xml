@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="137dp"
+        android:layout_height="129dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="29dp"
+        app:srcCompat="@drawable/ch" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_marginEnd="146dp"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:text="HAY  "
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="191dp"
+        android:layout_height="42dp"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:text="WHITE CHAIR"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:text="WHITE CHAIR" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="127dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="120dp"
+        android:background="@android:color/white"
+        android:text=" → purchase"
+        tools:text=" → purchase" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView2"
+        android:text="Small and comfortable" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="76dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="172dp"
+        app:srcCompat="@drawable/cp" />
+
+    <TextView
+        style="@style/words"
+        android:id="@+id/textView8"
+        android:layout_width="281dp"
+        android:layout_height="59dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:paddingTop="20dp"
+        android:text="FOR ONLY $299.99"
+         />
+
+    <ImageView
+
+        android:id="@+id/imageView3"
+        android:layout_width="78dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="240dp"
+        app:srcCompat="@drawable/rd" />
+
+    <TextView
+        style="@style/words"
+        android:id="@+id/textView10"
+        android:layout_width="278dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView3"
+        android:paddingTop="20dp"
+        android:text="ON TIME DELIVERY"
+        />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="191dp"
+        app:srcCompat="@drawable/ad" />
+
+    <TextView
+        style="@style/words"
+        android:id="@+id/textView11"
+        android:layout_width="278dp"
+        android:layout_height="62dp"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginEnd="-220dp"
+        android:paddingTop="20dp"
+        android:text="SAFE TO BE USED BY CHILDREN"
+        />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="83dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="119dp"
+        app:srcCompat="@drawable/cc" />
+
+    <TextView
+        style="@style/words"
+        android:id="@+id/textView12"
+        android:layout_width="274dp"
+        android:layout_height="58dp"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5"
+        android:paddingTop="20dp"
+        android:text="VERY COMFORTABLE TO USE"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginBottom="28dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Button"
+        tools:text="→ PURCHASE" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignTop="@+id/button3"
+        android:background="@android:color/holo_red_dark"
+        android:text="Button"
+        tools:text=" SKIP" />
+
+</RelativeLayout>
